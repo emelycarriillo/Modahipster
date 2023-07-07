@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;600&display=swap');
+/* font-family: 'League Spartan', sans-serif;
+   font-family: 'Hanken Grotesk', sans-serif;
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: 
+        url(img/beard.webp);
+
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+     font-size: 25px;
+     font-weight: 900;
+     font-family: 'League Spartan', sans-serif;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: 200;
+}
+
+.menu .navbar ul li a:hover{
+    color: #191919;
+}
+
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    text-align: center;
+}
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #191919;
+    font-family: 'Belanosima', sans-serif;
+    -webkit-text-stroke: 2px black;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.btn-2 {
+    font-size: 30px;
+    color: black;
+}
+
+.header-content p{
+    font-size: 25px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    margin: 60px;
+    background-color: #191919;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 35px;
+    border: solid 2px black;
+    font-weight: bold;
+}
+.btn-1:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: #323337;
+}
+
+
+.xoxo{
+    padding: 100px 0;
+    background-color: white;
+    position: relative;
+}
+.xoxo-content{
+    text-align: center;
+}
+
+.xoxo-content h2{
+    font-size: 52px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.txt-p{
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.xoxo-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+.xoxo-1{
+    padding: 0 25px;
+}
+.xoxo-1 img{
+    width: 200px;
+    border-radius: 35px;
+}
+
+.xoxo-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.xoxo-img2{
+    position: absolute;
+    top: 30rem;
+    left: 0;
+    width: 25rem;
+    
+}
+.xoxo-1 h3{
+    color: #323337;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.services{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(241, 203, 229, 0.633)),
+        url(img/fondohipster.jpg);
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+}
+
+.services-content{
+    text-align: center;
+}
+.services-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-family: 'League Spartan', sans-serif;
+    -webkit-text-stroke: 2px #191919;
+}
+.services-content p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.services-1{
+    padding: 0 120px;
+
+}
+.services-1 img{
+    width: 25px;
+    margin-bottom: 15px;
+    
+}
+.services-1 h3{
+    color: #eaeaea;
+    font-size: 18px;
+}
+
+
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0px 45px 0px;
+}
+
+.blog{
+    padding: 100px 0;
+    text-align: center;
+}
+.blog-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1{
+    padding: 15px 55px;
+}
+
+.blog-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.blog-1 h3{
+    font-size: 25px;
+    color: #323337;
+}
+
+.footer{
+    padding: 100px 0;
+    background-color: #323337;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{
+    font-size: 18px;
+    color: #e1e2e6;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.link{
+    display: flex;
+}
+
+.link a{
+    width: 45PX;
+    height: 45PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #191919;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    flex-direction: row;
+}
+.link a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+@media(max-width:991px){ /*cuando baje a 900px aplica responsive*/
+    .menu{
+        padding: 30px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+
+    .menu ,navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .header{
+        min-height: 0vh;
+    }
+    .header-content{
+        padding: 100px 30px;
+    }
+
+    .header-content p{
+        padding: 0;
+    }
+
+    .xoxo{
+        padding: 30px;
+    }
+    .xoxo-content h2{
+        padding: 0;
+    }
+
+    .txt-p{
+        padding: 0;
+    }
+
+    .xoxo-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .xoxo-img{
+        display: none;
+    }
+    .xoxo-img2{
+        display: none;
+    }
+
+    .services{
+        padding: 30px;
+    }
+    .services-content p{
+        padding: 0;
+    }
+    .services-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .services-1{
+        margin-bottom: 25px;
+    }
+
+    .blog{
+        padding: 30px ;
+    }
+    .blog-content{
+        flex-direction: column;
+    }
+    .blog-1{
+        padding: 0;
+    }
+
+    .footer{
+        padding: 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+}
